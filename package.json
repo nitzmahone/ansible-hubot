@@ -10,6 +10,7 @@
     "hubot-google-translate": "^0.2.0",
     "hubot-help": "^0.1.1",
     "hubot-heroku-keepalive": "0.0.4",
+    "hubot-kudos": "0.0.3",
     "hubot-maps": "0.0.2",
     "hubot-pugme": "^0.1.0",
     "hubot-redis-brain": "0.0.3",
@@ -21,5 +22,8 @@
   },
   "engines": {
     "node": "0.10.x"
+  },
+  "scripts": {
+    "start": "PORT=$OPENSHIFT_NODEJS_PORT BIND_ADDRESS=OPENSHIFT_NODEJS_IP HEROKU_URL=$OPENSHIFT_APP_DNS REDIS_URL=redis://:$REDISPASSWORD@$OPENSHIFT_REDIS_HOST:$OPENSHIFT_REDIS_PORT bin/hubot -n Hubot -a slack"
   }
 }
