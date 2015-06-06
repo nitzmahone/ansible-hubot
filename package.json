@@ -11,24 +11,22 @@
     "hubot-google-translate": "^0.2.0",
     "hubot-help": "^0.1.1",
     "hubot-heroku-keepalive": "0.0.4",
-    "hubot-kudos": "0.0.3",
-    "hubot-maps": "0.0.2",
     "hubot-plusplus": "1.1.5",
     "hubot-pugme": "^0.1.0",
     "hubot-redis-brain": "0.0.3",
     "hubot-rules": "^0.1.1",
     "hubot-scripts": "^2.16.0",
-    "hubot-shipit": "^0.2.0",
-    "hubot-slack": "^3.3.0",
-    "hubot-youtube": "^0.1.2"
+    "hubot-slack": "^3.3.0"
   },
   "engines": {
     "node": "0.10.x",
     "npm": ">= 1.0.0"
   },
+
+/*
   "scripts": {
     "start": "PORT=$OPENSHIFT_NODEJS_PORT BIND_ADDRESS=OPENSHIFT_NODEJS_IP HUBOT_HEROKU_KEEPALIVE_URL=$OPENSHIFT_APP_DNS REDIS_URL=redis://:$REDISPASSWORD@$OPENSHIFT_REDIS_HOST:$OPENSHIFT_REDIS_PORT HUBOT_SLACK_TOKEN=xoxb-6047566737-cjoQBZmeu1l93ptheLoF2neT bin/hubot -n Hubot -a slack"
-  },
+  },*/
   "private": true,
   "main": "server.js"
   
