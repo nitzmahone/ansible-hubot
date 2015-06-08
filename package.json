@@ -10,7 +10,6 @@
     "hubot-google-images": "^0.1.5",
     "hubot-google-translate": "^0.2.0",
     "hubot-help": "^0.1.1",
-    "hubot-heroku-keepalive": "0.0.4",
     "hubot-plusplus": "1.1.5",
     "hubot-pugme": "^0.1.0",
     "hubot-redis-brain": "0.0.3",
@@ -25,7 +24,7 @@
   "scripts": {
     "start": "npm run start-express & npm run start-hubot",
     "start-express": "node server.js",
-    "start-hubot": "PORT=$OPENSHIFT_NODEJS_PORT BIND_ADDRESS=OPENSHIFT_NODEJS_IP HUBOT_HEROKU_KEEPALIVE_URL=$OPENSHIFT_APP_DNS REDIS_URL=redis://:$REDISPASSWORD@$OPENSHIFT_REDIS_HOST:$OPENSHIFT_REDIS_PORT HUBOT_SLACK_TOKEN=xoxb-6047566737-cjoQBZmeu1l93ptheLoF2neT bin/hubot -n Hubot -a slack"
+    "start-hubot": "PORT=$OPENSHIFT_NODEJS_PORT BIND_ADDRESS=OPENSHIFT_NODEJS_IP REDIS_URL=redis://:$REDISPASSWORD@$OPENSHIFT_REDIS_HOST:$OPENSHIFT_REDIS_PORT HUBOT_SLACK_TOKEN=xoxb-6047566737-cjoQBZmeu1l93ptheLoF2neT bin/hubot -n Hubot -a slack"
   },
   "private": true
 }
