@@ -16,8 +16,6 @@ module.exports = (robot) ->
         if not body? or body is ''
           return msg.send "No quote results for \"#{query}\""
 
-        console.log "body was " + body
-
         videos = JSON.parse(body)
 
         unless videos? && videos.length > 0
