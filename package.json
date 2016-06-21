@@ -10,7 +10,7 @@
     "hubot-google-images": "^0.1.5",
     "hubot-google-translate": "^0.2.0",
     "hubot-help": "^0.1.1",
-    "hubot-plusplus": "1.1.5",
+    "hubot-plusplus": "^1.1.7",
     "hubot-pugme": "^0.1.0",
     "hubot-rules": "^0.1.1",
     "hubot-scripts": "^2.16.0",
