@@ -9,12 +9,12 @@
     "hubot-diagnostics": "0.0.1",
     "hubot-google-images": "^0.1.5",
     "hubot-google-translate": "^0.2.0",
-    "hubot-help": "^0.1.1",
-    "hubot-plusplus": "^1.1.7",
+    "hubot-help": "^0.2.0",
+    "hubot-plusplus": "^1.3.0",
     "hubot-pugme": "^0.1.0",
     "hubot-rules": "^0.1.1",
     "hubot-scripts": "^2.16.0",
-    "hubot-slack": "^3.3.0",
+    "hubot-slack": "^4.1.0",
     "jobot-brain-file": "^1.0.1"
   },
   "engines": {
